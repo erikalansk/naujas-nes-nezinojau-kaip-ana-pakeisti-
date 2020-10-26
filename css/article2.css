@@ -1,0 +1,196 @@
+/* Basic CSS reset */
+*,
+:after,
+:before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+.page__body {
+    font-family: 'Open Sans', sans-serif;
+    max-width: 1680px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+/*Mobile first style and layout*/
+
+/*Header and navigation*/
+.search_form {
+    display: none;
+}
+
+.mobile_search_form {
+    display: flex;
+}
+
+.mobile_search_input {
+    border: 1px solid #4F6367;
+    padding: 5px;
+    width: 98%;
+}
+
+.logo_style {
+    font-family: 'Bebas Neue';
+    font-size: 1.875rem;
+    color: #333333;
+    text-decoration: none;
+    text-align: center;
+}
+
+/*IMPACT OF SOCIAL MEDIA ON MENTAL HEALTH*/
+
+.article_name {
+    color: #333333;
+    font-family: 'Open Sans';
+    margin-left:10px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.impact {
+    width:100%;
+    padding: 0 0 15px 0;
+        display: block;
+}
+
+.space {
+    margin: 30px 10px;
+}
+
+.headline {
+    margin-left: 10px;
+    margin: 20px 0;
+}
+
+.quote_box {
+    background-color: #D4FFEA;
+    align-content: center;
+    text-align: center;
+    padding: 8px 8px;
+}
+
+.insecurities {
+width: 100%;
+    padding: 0 0 15px 0;
+    display: block;
+    
+}
+
+.numbers {
+    margin: 0 20px;
+}
+.credit {
+    font-style: italic;
+    font-weight: 100;
+    margin: -10px 0 10px 0;
+    
+}
+
+
+.link {
+    color: #5DF8AC;
+}
+
+
+/*-----------Footer section------------*/
+.page_footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 15rem;
+    align-items: center;
+    text-align: center;
+    border-top: 2px solid #4F6367;
+    padding-top: 25px;
+    padding-bottom: 0px;
+}
+
+.some_image {
+    width: 32px;
+    margin-right: 16px;
+}
+
+.footer_card_heading {
+    margin-bottom: 7px;
+}
+
+.footer_card:first-child .footer_card_heading {
+    margin-bottom: 16px;
+}
+
+.footer_link {
+    text-decoration: none;
+    color: #333333;
+}
+
+@media only screen and (min-width: 900px) {
+
+    .search_form {
+        display: flex;
+    }
+
+    .mobile_search_form {
+        display: none;
+    
+    }
+
+    .article_name {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .impact {
+        width: 800px;
+        height: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    
+    .space {
+       width: 800px;
+        margin: 0 auto;
+        
+    }
+    
+    .quote_box {
+        font-size: 25px;
+        width: 800px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin: 15px auto;
+                
+    }
+    
+    
+
+    
+    .credit {
+        margin-left:435px;
+        font-size: 19px;
+    }
+
+    .page_footer {
+        flex-direction: row;
+        justify-content: space-around;
+        height: 9rem;
+        padding-top: 0
+    }
+
+    .some_image {
+        width: 50px;
+        margin-right: 16px;
+    }
+
+
+}
+
+
