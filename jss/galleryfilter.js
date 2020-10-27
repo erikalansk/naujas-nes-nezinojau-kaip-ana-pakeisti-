@@ -10,3 +10,4 @@ searchtext.addEventListener("keyup", function () {
         }
     }
 })
+// erika is the best
